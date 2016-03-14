@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url(../fonts/coolvetica.ttf) format("truetype");
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body{			 	
+	font-family: "Comic sans",Sans-serif;
+/*	overflow-x: hidden;
+*/    background-color: #77F5F7;
+}			
+
+.contenidor1, .containerB, .containerF {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.containerH {
+	width: 100%;
+	height:50px;
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+.containerH span {
+	align-items: center;
+	align-content: center;
+	flex-grow:1;
+	display: flex;
+	max-width: 800px;
+}
+
+.containerH span h1{
+	flex-grow:2;
+	justify-content:flex-end;
+	font-family: "coolvetica";
+    font-size:25px;
+    text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    margin:0px !important;
+}
+
+.containerH a {
+	text-decoration: none;
+	color:black;
+}
+
+/*.ajaxLogin {
+	/*hijo
+	flex-grow:1;
+	/*padre*/
+	/*display: flex;
+	justify-content:flex-end;
+}*/
+
+.inner-addon {
+	/*hijo*/
+	flex:0 0 25%;
+	margin:10px 0px;
+  	position: relative;
+  	padding:0 5px;
+}
+
+.inner-addon {
+	/*hijo*/
+	flex:0 0 25%;
+	margin:10px 0px;
+  	position: relative;
+  	padding:0 5px;
+}
+
+.inner-addon:nth-child(3) {
+	/*hijo*/
+	flex:0 0 10%;
+}
+
+.inner-addon:nth-child(3) input{
+	padding: 5px 10px;
+	font-weight: bold;
+	border-radius:5px;
+}
+
+.inner-addon:last-child {
+	/*hijo*/
+	flex:0 0 10%;
+}
+
+.inner-addon:last-child input{
+	padding: 5px 10px;
+	font-weight: bold;
+	border-radius:0px;
+}
+
+.inner-addon:nth-child(3) input:hover, .inner-addon:last-child input:hover{
+	border-color:#66afe9;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #66afe9;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #66afe9;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.containerB{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	align-content:space-around;
+	height: calc(100vh - 100px);
+}
+
+.containerB .anuncio{
+	flex: 0 0 22%;
+	margin: 1%;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid black;
+	min-height: calc(35vh - 108px);
+	display: flex;
+	flex-direction:column;
+}
+
+.containerB .paginado {
+	flex: 0 0 100%;
+	min-height: 25px;
+	text-align: center;
+}
+
+.containerF{
+	height:50px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+.paginado {
+	font-size: 20px;
+}
+
+.paginado .glyphicon:hover{
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tituloAnuncio {
+	flex-grow:1;
+	background: rgba(0,0,0,0.1);
+	border-bottom:1px solid black;
+}
+
+.cuerpoAnuncio {
+	flex-grow:5;
+}
+
+.fotoAnuncio {
+	display: flex;
+	flex-grow:2;
+}
+
+.fotoAnuncio img {
+	flex-grow:1;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ajaxRegister {
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	min-width: 300px;
+}
+
+#btnRegistro {
+	width: 100%;
+}
+
+.containerRegistro {
+	flex-direction:column;
+}
+
+#mensajeRegistro {
+	display:none;
+	margin-top: 15px;
+	padding: 15px;
+	border-radius: 5px;
+/*	background: white;*/
+}
+
+.mensajeCorrecto{
+	color:green;
+	font-size: 20px;
+}
+
+.mensajeIncorrecto{
+	color:red;
+	font-size: 20px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************
